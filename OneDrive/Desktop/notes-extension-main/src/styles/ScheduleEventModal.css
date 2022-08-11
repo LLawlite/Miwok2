@@ -1,0 +1,262 @@
+.scheduleEventmodal-Background {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.scheduleEventmodal-Container {
+
+    width: 729px;
+    height: 184px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    background: #333739;
+    position: absolute;
+    left: 490px;
+    top: 338px;
+    border-radius: 5px;
+}
+
+.scheduleEventmodal-title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.scheduleEventmodal-titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.scheduleEventmodal-titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: #ABAEB1;
+    padding-right: 16px;
+    font-size: 17px;
+    margin-top: 8px;
+
+
+}
+
+.scheduleEventmodal-titleCloseBtn:hover {
+    transform: scale(1) !important;
+
+}
+
+.scheduleEventmodal-Container .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.scheduleEventmodal-Container .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scheduleEventmodal-Container .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+#scheduleEventmodal-cancelBtn {
+    background-color: crimson;
+}
+
+/* #scheduleEventmodal-cancelBtn :hover {
+    transform: scale(0.98);
+    opacity: 0.9;
+} */
+
+
+#schedule-meet-container {
+    /* width: 981px; */
+
+    background: #333739;
+    border-radius: 5px;
+}
+
+
+.schedule-meet-dialogue {
+    background: #333739;
+}
+
+#schedule-meet {
+    width: 42px;
+    height: 42px;
+    border-radius: 50% 50%;
+    background-color: #545556;
+    border: 1px solid #25559c;
+}
+
+.vertical-line {
+    border-left: 1px solid #595f62;
+    /* height: 200px; */
+
+
+
+}
+
+#schedule-meet-container {
+    display: flex;
+
+
+}
+
+.schedule-meet-child-header {
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.schedule-meet-child-header img {
+    width: 30px;
+    /* height: 21%; */
+    margin-right: 6px;
+}
+
+
+.schedule-meet-child-header h2 {
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
+
+#schedule-meet-container p {
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+    font-weight: 500;
+    padding-top: 2px;
+}
+
+#start-instant-meet p {
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+
+    color: #FFFFFF;
+    font-weight: 500;
+    padding-top: 2px;
+}
+
+#schedule-btn {
+    width: 142px;
+    height: 36px;
+    background: #25559C;
+    border-radius: 5px;
+    margin-top: 26px;
+    /* font-weight: 700; */
+    /* font-size: 17px; */
+    /* line-height: 23px; */
+    /* color: #FFFFFF; */
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+
+
+#create-meet-btn {
+    width: 142px;
+    height: 36px;
+    background: #25559C;
+    border-radius: 5px;
+    margin-top: 26px;
+    /* font-weight: 700; */
+    /* font-size: 17px; */
+    /* line-height: 23px; */
+    /* color: #FFFFFF; */
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+    padding-bottom: 1px;
+
+}
+
+
+#schedule-an-event {
+    padding-left: 27px;
+    flex: 1;
+    margin-right: 21px;
+}
+
+#start-instant-meet {
+    /* padding: 27px; */
+
+    padding-right: 27px;
+    flex: 1;
+    margin-left: 21px;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #6F7377;
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    font-size: 14px;
+    top: 1px;
+    /* right: -128px; */
+    left: 50px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    transition: 0.5s;
+}

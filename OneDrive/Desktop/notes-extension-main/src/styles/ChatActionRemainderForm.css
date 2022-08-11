@@ -1,0 +1,172 @@
+.remainder-dialoge {
+    background: #333739;
+}
+
+#set-remainder-div {
+    border-radius: 50% 50%;
+    height: 42px;
+    width: 42px;
+    background-color: #545556;
+    cursor: pointer;
+    border: 1px solid #25559c;
+}
+
+#remainder-dialog {
+    width: 50%;
+    background-color: #F4FFEF;
+    height: 100%;
+    border: 1px dotted black;
+}
+
+#chatActionRemainder-dialogue {
+
+    position: absolute;
+    /* right: 1%; */
+    left: 8%;
+
+}
+
+#chatActionRemainder {
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-remainder-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.form-group input {
+    font-size: 16px;
+    background: #D6D7D9;
+    border: 2px solid #25559C;
+    padding: 6px;
+    border-radius: 5px;
+
+
+}
+
+#remainder-child-1 {
+    position: absolute;
+
+    width: 44px;
+    left: -6%;
+}
+
+#remainder-child-2 {
+    background-color: white;
+    border-radius: 50% 50%;
+    height: 12px;
+    position: absolute;
+    width: 12px;
+    top: 53%;
+    left: 58%;
+}
+
+.title {
+    font-family: 'Palanquin Dark';
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 28px;
+    margin-left: 9px;
+    color: #FFFFFF;
+
+}
+
+.description {
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+    margin-left: 9px;
+}
+
+.form-groub-labels {
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    /* line-height: 30px; */
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+
+#remainder-dialoge-footer {
+    justify-content: center;
+}
+
+#remainder-dialoge-footer button {
+    background: #25559C;
+    border-radius: 5px;
+    padding-left: 27px;
+    padding-right: 27px;
+    margin-bottom: 29px;
+    margin-bottom: 29px;
+    text-transform: capitalize;
+    font-family: 'Palanquin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding-bottom: 8px;
+}
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #6F7377;
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    font-size: 14px;
+    top: 1px;
+    /* right: -128px; */
+    left: 50px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    transition: 0.5s;
+}
+
+#remainder-child-21 {
+    position: absolute;
+    top: -0.5%;
+    width: 11px;
+    left: 7%;
+}
+
+input[type="date"] {
+    color: grey;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    border-radius: 5px !important;
+    background-color: #333739 !important;
+    position: absolute !important;
+    left: 346px !important;
+}

@@ -1,0 +1,15 @@
+#schedule-meet-img {
+    /* width: 70%; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 9px;
+    top: 8px;
+}
+
+#schedule-meet {
+    background-color: #abaeb1;
+    cursor: pointer;
+}
